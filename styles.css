@@ -1,0 +1,65 @@
+/* Resetare stiluri implicite */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Font principal */
+    line-height: 1.5;
+    background-color: hwb(206 82% 0%); /* Fundal gri deschis */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+section {
+    padding: 40px 0;
+    text-align: center; /* Aliniere text centru */
+}
+
+#about {
+    background-color: #FFCCCC; /* Roz */
+    color: #333;
+    padding: 30px;
+}
+
+#music {
+    padding: 50px 0;
+}
+
+#music p {
+    margin-bottom: 20px;
+}
+
+
+.turquoise-line {
+    background-color: #40E0D0; 
+    margin: 0;
+    color: #000000; 
+    padding: 0; /* AM adăugat spațiu între margine și text */
+    font-family: 'Courier New', Courier, monospace; 
+    white-space: pre; /* Menține spațiile  */
+}
+
+
+
+.container img {
+    max-width: 50%; /* Imaginea nu depășește containerul (ar trebui..) */
+    height: auto; /* Va menține proporțiile imaginii */
+    display: block;
+    margin: 0 auto; /* Centrează imaginea */
+}
+
+footer {
+    background-color: hwb(315 60% 0%);
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+    padding: 20px 0;
+}
